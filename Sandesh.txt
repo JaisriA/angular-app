@@ -6,5 +6,3 @@ sandesh
 prasanna
 abc
 123
-xyz
-nopat-1
