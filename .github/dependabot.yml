@@ -5,7 +5,7 @@ registries:
     url: https://jaisri.jfrog.io/artifactory/default-maven-virtual/
     username: jaisri306@gmail.com
     password: Jaisri@888
-  docker-virtual:
+  docker-registry:
     type: docker-repository
     url: https://jaisri.jfrog.io/artifactory/default-docker-virtual/
     username: jaisri306@gmail.com
