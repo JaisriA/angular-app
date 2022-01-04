@@ -1,18 +1,14 @@
 version: 2
 registries:
-  rogers-maven-virtual:
+  maven-virtual:
     type: maven-repository
     url: https://jaisri.jfrog.io/artifactory/default-maven-virtual/
     username: jaisri306@gmail.com
     password: Jaisri@888
 updates:
-  - package-ecosystem: gradle
-    directory: /
-    registries:
-      - rogers-maven-virtual
+  - package-ecosystem: "gradle"
+    directory: "/"
+    registries:"*"
     schedule:
-      interval: daily
-    open-pull-requests-limit: 10
-    commit-message:
-      prefix: fix
-      prefix-development: chore
+      interval: "daily"
+    
