@@ -1,7 +1,7 @@
 version: 2
 registries:
   docker-virtual:
-    type: docker-repository
+    type: docker-registry
     url: https://jaisri.jfrog.io/artifactory/default-docker-virtual/
     username: jaisri306@gmail.com
     password: Jaisri@888
