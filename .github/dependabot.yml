@@ -6,7 +6,7 @@ registries:
     username: jaisri306@gmail.com
     password: Jaisri@888
 updates:
-  - package-ecosystem: "gradle"
+  - package-ecosystem: "maven"
     directory: "/"
     registries: "*"
     schedule:
